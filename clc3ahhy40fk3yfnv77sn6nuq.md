@@ -59,38 +59,53 @@ Like the increment operator, the decrement operator can be used either before (p
 
 Unary operators are operators that perform an operation on a single operand. There are several unary operators available in JavaScript, including:
 
-1. `typeof`: This operator returns a string indicating the type of the operand. For example: \`\`\`js let x = 5; console.log(typeof x); // Output: "number"
+1. `typeof`: This operator returns a string indicating the type of the operand. For example:
     
 
+```javascript
+let x = 5; console.log(typeof x); // Output: "number"
 let y = "hello"; console.log(typeof y); // Output: "string"
-
 let z; console.log(typeof z); // Output: "undefined"
+```
 
-````javascript
+1. \`+\`: This operator attempts to convert a value into a number if it isn't already a number. For example:
+    
 
-2.  `+`: This operator attempts to convert a value into a number if it isn't already a number. For example:
-```js
+```javascript
+
 console.log(+"5"); // Output: 5
 console.log(+true); // Output: 1
 console.log(+false); // Output: 0
-````
+```
 
-1. `!`: This operator converts truthy values to falsy and vice versa. For example: \`\`\`js console.log(!true); // Output: false console.log(!false); // Output: true console.log(!5); // Output: false console.log(!0); // Output: true
+1. `!`: This operator converts truthy values to falsy and vice versa. For example:
     
 
-````javascript
+```js
+console.log(!true); // Output: false 
+console.log(!false); // Output: true 
+console.log(!5); // Output: false 
+console.log(!0); // Output: true
+```
 
 #### Falsy Values
 
 In JavaScript, there are certain values that are considered "falsy," which means that they are evaluated as false when used in a boolean context. These values include:
 
--   0
--   0n (BigInt)
--   null
--   undefined
--   NaN
--   false
--   "" (empty string)
+* 0
+    
+* 0n (BigInt)
+    
+* null
+    
+* undefined
+    
+* NaN
+    
+* false
+    
+* "" (empty string)
+    
 
 All other values are considered "truthy," which means they are evaluated as true when used in a boolean context. It's important to keep in mind that only these specific values are considered falsy in JavaScript, and all other values are truthy.
 
@@ -99,13 +114,13 @@ All other values are considered "truthy," which means they are evaluated as true
 JavaScript has a number of arithmetic operators that allow you to perform basic mathematical operations on numbers. These operators include:
 
 | Operator | Description |
-|----------|-------------|
-| `+`      | Addition    |
-| `-`      | Subtraction |
-| `*`      | Multiplication |
-| `**`     | Exponentiation (ES2016) |
-| `/`      | Division |
-| `%`      | Modulus (Division Remainder) |
+| --- | --- |
+| `+` | Addition |
+| `-` | Subtraction |
+| `*` | Multiplication |
+| `**` | Exponentiation (ES2016) |
+| `/` | Division |
+| `%` | Modulus (Division Remainder) |
 
 Let's look at some examples of how these operators can be used:
 
@@ -119,15 +134,17 @@ console.log(x * y); // Output: 50
 console.log(x ** y); // Output: 100000
 console.log(x / y); // Output: 2
 console.log(x % y); // Output: 0
-````
+```
 
 In this example, we have declared two variables `x` and `y` and used the arithmetic operators to perform various calculations. The `+` operator is used to add `x` and `y`, the `-` operator is used to subtract `y` from `x`, and so on.
 
 It's important to note that the `**` operator is a new addition to JavaScript, and is used to calculate the exponentiation of a number. The `%` operator is the modulus operator, which returns the remainder of a division operation.
 
+It's important to note that the `**` operator is a new addition to JavaScript, and is used to calculate the exponentiation of a number. The `%` operator is the modulus operator, which returns the remainder of a division operation.
+
 ### Comparison Operators in JavaScript
 
-JavaScript has a number of comparison operators that allow you to compare values and determine whether they are equal, greater than, or less than each other. These operators include:
+JavaScript has several comparison operators that allow you to compare values and determine whether they are equal, greater than, or less than each other. These operators include:
 
 | Operator | Description |
 | --- | --- |
