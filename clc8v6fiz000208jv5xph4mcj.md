@@ -22,11 +22,13 @@ A function is a piece of code that performs a specific task and which can be reu
 
 It is defined using the `function` keyword.
 
-Suppose you need to write a program to check if a string is a palindrome (a word or phrase that reads the same backward as forward). You could write the following functions for it:
+Suppose you need to write a program to find if the sum of two numbers is greater than 10. You could write the following functions for it:
 
-* a function that reverses a string.
+* A function that adds two numbers.
     
-* And a function that compares a string to its reversed version. Functions make our code more readable and reusable.
+* A function which checks if the number is greater than 10.
+    
+    Functions make our code more readable and reusable
     
 
 > **In JavaScript, functions are first-class citizens.**
