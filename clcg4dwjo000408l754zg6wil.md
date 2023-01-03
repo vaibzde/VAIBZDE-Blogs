@@ -116,41 +116,10 @@ There are many different design patterns that can be used in object-oriented pro
 * Observer pattern: This pattern defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
     
 
-Here's an example of the singleton pattern in JavaScript:
-
-```js
-class Database {
-  constructor() {
-    if (Database.instance) {
-      return Database.instance;
-    }
-
-    Database.instance = this;
-    this.data = [];
-  }
-
-  add(item) {
-    this.data.push(item);
-  }
-
-  remove(item) {
-    const index = this.data.indexOf(item);
-    if (index !== -1) {
-      this.data.splice(index, 1);
-    }
-  }
-}
-
-const db1 = new Database();
-const db2 = new Database();
-
-console.log(db1 === db2); // Outputs true
-```
-
-In the example above, the `Database` class has a private static property called `instance` that is used to store the single instance of the class. The constructor function checks if an instance already exists, and if it does, it returns that instance instead of creating a new one. This ensures that there is only one instance of the `Database` class at any given time.
-
 # Conclusion
 
 In this post, we covered some of the key concepts and techniques for implementing object-oriented programming in JavaScript. We looked at the class syntax, which is a modern way of creating objects and defining their characteristics and behaviors. We also discussed prototypal inheritance, which is a unique feature of JavaScript that allows objects to inherit from other objects. Finally, we introduced design patterns, which are proven solutions to common programming problems that can be applied to OOP in JavaScript.
 
 Object-oriented programming is an important concept in JavaScript, as it allows you to organize and reuse code in a logical and modular way. By understanding these concepts and techniques, you can improve the structure and maintainability of your JavaScript code.
+
+> Thankyou! for reading :)
