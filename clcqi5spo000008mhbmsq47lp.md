@@ -90,7 +90,6 @@ Handling errors is a critical part of any application, and promises provide a mo
 # Chaining Promises
 
 * Understanding promise chaining: Promise chaining is the ability to chain multiple promises together. This allows you to execute multiple async operations in a specific order and handle errors more efficiently. Chaining promises is done by returning a promise from the fulfillment handler of a previous promise. The returned promise is then resolved with the result of the returned promise.
-    
 
 ```js
 promise1.then(result1 => {
@@ -109,9 +108,6 @@ In this example, promise1 is fulfilled first and it returns promise2, which is t
 
     const promise1 = new Promise((resolve, reject) => {
       setTimeout(() => resolve('Hello '), 1000);
-    ```
-    
-
 });
 
 const promise2 = new Promise((resolve, reject) =&gt; { setTimeout(() =&gt; resolve('World!'), 2000); });
@@ -143,7 +139,6 @@ In this example, `promise1`, `promise2`, and `promise3` will be run parallelly a
 
 * Examples of using Promise.all: Here's an example that demonstrates how to use `Promise.all` to run multiple promises parallelly:
     
-
 ```js
 const promise1 = new Promise((resolve, reject) => {
     setTimeout(() => resolve(1), 1000);
