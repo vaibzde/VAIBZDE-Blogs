@@ -105,7 +105,8 @@ In this example, promise1 is fulfilled first and it returns promise2, which is t
 
 * Examples of chaining Promises: Here's an example that demonstrates how to chain multiple promises together:
     
-    ```js
+```js
+
     const promise1 = new Promise((resolve, reject) => {
       setTimeout(() => resolve('Hello '), 1000);
     ```
@@ -117,7 +118,7 @@ const promise2 = new Promise((resolve, reject) =&gt; { setTimeout(() =&gt; resol
 
 promise1.then(result1 =&gt; { console.log(result1); return promise2; }).then(result2 =&gt; { console.log(result2); });
 
-````javascript
+```js
 
 In this example, `console.log('Hello ')` is going to be called after one second, and `console.log('World!')` is going to be called after two seconds.
 
@@ -136,7 +137,7 @@ Promise.all([promise1, promise2, promise3]).then(result => {
 }).catch(error => {
     // handle the error
 });
-````
+```
 
 In this example, `promise1`, `promise2`, and `promise3` will be run parallelly and if all of them gets fulfilled then the `then` method is called with an array of the results.
 
