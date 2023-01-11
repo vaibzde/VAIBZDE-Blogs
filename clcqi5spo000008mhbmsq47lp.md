@@ -98,6 +98,7 @@ promise1.then(result1 => {
 }).then(result2 => {
     // do something with result2
 });
+
 ```
 
 In this example, promise1 is fulfilled first and it returns promise2, which is then fulfilled and passed to the second then method.
@@ -114,7 +115,7 @@ const promise2 = new Promise((resolve, reject) =&gt; { setTimeout(() =&gt; resol
 
 promise1.then(result1 =&gt; { console.log(result1); return promise2; }).then(result2 =&gt; { console.log(result2); });
 
-```js
+```
 
 In this example, `console.log('Hello ')` is going to be called after one second, and `console.log('World!')` is going to be called after two seconds.
 
