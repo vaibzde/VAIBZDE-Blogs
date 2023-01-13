@@ -1,4 +1,4 @@
-# Day24 - An Introduction to HTTP: The Protocol of the Web
+# #Day24 - An Introduction to HTTP: The Protocol of the Web
 
 # Introduction
 
