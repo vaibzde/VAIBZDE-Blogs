@@ -736,3 +736,8 @@ Sunk costs:
 2. In energy management and auditing, sunk costs can include the costs of equipment or facilities that have already been installed and are no longer in use.
     
 3. Sunk costs should not be considered when evaluating new energy conservation measures or renewable energy projects, as they have already been incurred and cannot be recovered.
+    
+
+## 🚨 Disclaimer Alert 🚨
+
+Please note that while we have made every effort to ensure the accuracy of the information in this guide, there is no guarantee that the answers provided are 100% correct. The information has been collected from various sources including the internet and OpenAI's GPT-3 model. It is ultimately your responsibility to use your own knowledge and judgment when writing your exams. We're just here to make your studying a little bit easier and more convenient. So, study well and have fun! 🤓📚
