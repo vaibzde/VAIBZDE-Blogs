@@ -268,7 +268,7 @@ Case study in India:
 
 ## UNIT-III Energy efficient Motors
 
-#### Q1- Define energy efficient motors?
+#### Define energy efficient motors?
 
 1. Energy efficient motors consume less energy, resulting in energy savings and reduced operating costs.
     
@@ -279,7 +279,7 @@ Case study in India:
 4. Energy efficient motors can be integrated with digital systems to provide remote monitoring and control capabilities.
     
 
-#### Q2- Explain the factors affecting energy efficiency in motors?
+####  Explain the factors affecting energy efficiency in motors?
 
 1. Motor design and construction: The materials used in the construction of the motor, such as the type of winding and the use of rare earth magnets, can greatly impact the efficiency of the motor.
     
@@ -298,7 +298,7 @@ Case study in India:
 8. Control method: The method used to control the motor, such as a Variable Frequency Drive, can greatly impact the efficiency of the motor.
     
 
-Explain how to minimize motor losses in operation?
+#### Explain how to minimize motor losses in operation?
 
 1. Properly size the motor: Using a motor that is appropriately sized for the load will minimize the amount of energy required to run the motor, reducing losses.
     
