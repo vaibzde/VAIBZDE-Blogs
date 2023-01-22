@@ -28,21 +28,34 @@ In Summary,
 
 > A database system is a collection of data stored in a structured manner, along with a database management system (DBMS) that provides a variety of tools and functions to help users manage and analyze the data using a query language. The DBMS enables efficient and secure data access and manipulation, and helps to ensure the integrity and reliability of the data.
 
+## Components of a database:
+
+- Data: This is the actual information that is stored in the database, such as customer names, product information, and sales data. Data is organized into tables, which consist of rows and columns. Each table represents a specific subject, such as customers or products, and the columns represent the different attributes of that subject, such as name, address, and phone number.
+
+- Software: This refers to the database management system (DBMS) software that is used to create, manage, and maintain the database. Examples of DBMS software include MySQL, SQL Server, Oracle, MongoDB, and PostgreSQL.
+
+- Hardware: This refers to the physical components that are used to store the database, such as servers, storage devices, and network devices. The hardware must be powerful enough to support the demands of the database and the number of users accessing it.
+
+- Data Access Language: This refers to the language or interface used to interact with the database, such as SQL (Structured Query Language) which is used to insert, update, retrieve and delete data in the database.
+
+- Procedures: This refers to the set of instructions that are used to manage and maintain the database, such as backup procedures, security procedures, and performance tuning procedures. These procedures ensure the integrity, security, and performance of the database.
+
+
+# Structured and Unstructured Data
+
 In the context of database systems, there are two main types of data: structured data and unstructured data.
 
 Different types of data, such as structured and unstructured data, require different database management systems to store and access them effectively, and understanding the strengths and limitations of these systems is important for choosing the right one for a given application or use case.
-
-## Data Model
-
-A data model is a way of organizing data in a database. It helps to structure the data in a logical and consistent manner and makes it easier to store, retrieve, and manipulate the data. Different data models are used for different types of data and are suitable for different use cases. For example, the relational model is a data model that is used for structured data, while the document model is a data model that is used for unstructured data. By understanding the different data models and their characteristics, you can choose the right one for your needs.
-
-# Structured and Unstructured Data
 
 **Structured data** is data that is organized in a well-defined format, such as a table with rows and columns. Each row in the table represents a single record or entity, and each column represents a specific piece of information or attribute about that entity. Structured data is easy to search, sort, and analyze because it follows a fixed structure. Examples of structured data include customer records, product inventory lists, and financial transactions. Structured data is typically stored in a relational database management system (RDBMS) and can be queried using a structured query language (SQL).. The relational model is a data model that is commonly used for storing structured data.
 
 **Unstructured data** is data that does not have a well-defined format or structure. It may include text documents, images, videos, audio files, and other types of media that do not fit neatly into a tabular format. Unstructured data is more difficult to search, sort, and analyze than structured data because it does not follow a fixed structure. Examples of unstructured data include emails, social media posts, and customer reviews. Unstructured data is typically stored in a NoSQL (not only SQL) database and is queried using a variety of methods, such as search queries or map-reduce functions. Some data models that can be used to store unstructured data include the document model, key-value model, and graph model.
 
 Both structured and unstructured data are important for many modern applications and systems, and a combination of both types of data is often used to provide a comprehensive and accurate representation of real-world information and situations.
+
+# Data Model
+
+A data model is a way of organizing data in a database. It helps to structure the data in a logical and consistent manner and makes it easier to store, retrieve, and manipulate the data. Different data models are used for different types of data and are suitable for different use cases. For example, the relational model is a data model that is used for structured data, while the document model is a data model that is used for unstructured data. By understanding the different data models and their characteristics, you can choose the right one for your needs.
 
 # Types of Data Base Systems
 
@@ -91,9 +104,32 @@ There are several different types of NoSQL databases, each with its own data mod
 
 Use cases for NoSQL databases include situations where the structure of the data is not known in advance, the data is changing rapidly, or the data needs to be distributed across a large number of servers. NoSQL databases are often used in big data and real-time applications, where the performance and scalability of traditional SQL databases may be insufficient. They offer a number of benefits over traditional SQL databases, making them a valuable tool for developers and data professionals.
 
+NoSQL and relational databases are classified based on the way data is stored and accessed.
+
+## Classification of Databases based on architecture and design
+
+Databases are classified into different types based on their architecture and design.
+
+Centralized Database: This type of database has one central database that is accessed by multiple users. It is a single point of control and management for the entire data.
+
+Distributed Database: This type of database is distributed across multiple locations, and can be accessed by multiple users. It allows data to be spread across multiple systems, providing better performance and scalability.
+
+Personal Database: This type of database is intended for use by a single user, and is typically smaller in size. It is used for personal and small-scale data management.
+
+End-User Database: This type of database is designed to be accessed by a specific group of users, such as employees or customers. It is used for specific and restricted data management.
+
+Commercial Database: This type of database is intended for use by businesses and organizations, and typically requires payment to access the data. It is used for commercial and large-scale data management.
+
+Relational Database: This type of database is based on the relational model, which organizes data into one or more tables with relationships between them. It is widely used for transactional systems and large data management.
+
+Cloud Database: This type of database is stored on a remote server and accessed over the internet, usually on cloud infrastructure. It allows data to be accessed from anywhere and is highly scalable.
+
+Object-Oriented Database: This type of database combines the features of an object-oriented programming language with a relational database management system. It allows for the storage of complex data structures, such as object hierarchies, and provides an object-oriented interface for data access and manipulation.
+
+
 # Conclusion
 
-In this blog post, we have covered the basics of understanding database systems and the differences between NoSQL and RDBMS. We have also discussed the importance of databases in modern technology and the role of backend developers in working with them.
+In this blog post, we have covered the basics of understanding databases and database systems and the differences between NoSQL and RDBMS. We have also discussed the importance of databases in modern technology and the role of backend developers in working with them.
 
 We hope that this post has provided a good introduction to the topic and has given you a better understanding of the benefits and drawbacks of different types of databases. Remember that the choice of database depends on the specific needs of your application and the type of data you are working with.
 
