@@ -139,7 +139,7 @@ WHERE id = 1;
 
 - `DELETE` is used to delete data from a table. For example, the following SQL statement deletes the customer with id 1 from the "customers" table:
 
-```js
+```sql
 DELETE FROM customers
 WHERE id = 1;
 
