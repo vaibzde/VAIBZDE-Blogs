@@ -2,7 +2,7 @@
 
 Welcome to the 31st day of our blogging series! Today, we will be diving into the topic of understanding database systems.
 
-# Introduction
+# Introduction to Databases
 
 Databases are an essential part of modern technology. They are a collection of organized data that can be easily accessed, managed, and updated. The purpose of a database is to store and manage data in a way that is efficient and reliable.
 
@@ -13,6 +13,19 @@ As an example, let's take a look at how social media platforms like Twitter use 
 In addition to storing data, databases also play an important role in data analysis and decision-making. For example, Twitter uses data from its databases to analyze user engagement and determine which content is most popular. This information is then used to improve the platform and provide a better experience for users.
 
 As a backend developer, it's important to have a solid understanding of databases and how to interact with them. This includes understanding database design and implementation, as well as writing code to interact with the database. It's also important to understand how to optimize database performance and troubleshoot any issues that may arise.
+
+## Components of a database:
+
+- Data: This is the actual information that is stored in the database, such as customer names, product information, and sales data. Data is organized into tables, which consist of rows and columns. Each table represents a specific subject, such as customers or products, and the columns represent the different attributes of that subject, such as name, address, and phone number.
+
+- Software: This refers to the database management system (DBMS) software that is used to create, manage, and maintain the database. Examples of DBMS software include MySQL, SQL Server, Oracle, MongoDB, and PostgreSQL.
+
+- Hardware: This refers to the physical components that are used to store the database, such as servers, storage devices, and network devices. The hardware must be powerful enough to support the demands of the database and the number of users accessing it.
+
+- Data Access Language: This refers to the language or interface used to interact with the database, such as SQL (Structured Query Language) which is used to insert, update, retrieve and delete data in the database.
+
+- Procedures: This refers to the set of instructions that are used to manage and maintain the database, such as backup procedures, security procedures, and performance tuning procedures. These procedures ensure the integrity, security, and performance of the database.
+
 
 In web development, databases play a crucial role. They allow for the storage and retrieval of data needed for web applications to function. Without a database, web applications would not be able to store user information or application data. This makes databases an essential part of any web development project.
 
@@ -27,18 +40,6 @@ Another reason for using a database system is to enable efficient data access an
 In Summary,
 
 > A database system is a collection of data stored in a structured manner, along with a database management system (DBMS) that provides a variety of tools and functions to help users manage and analyze the data using a query language. The DBMS enables efficient and secure data access and manipulation, and helps to ensure the integrity and reliability of the data.
-
-## Components of a database:
-
-- Data: This is the actual information that is stored in the database, such as customer names, product information, and sales data. Data is organized into tables, which consist of rows and columns. Each table represents a specific subject, such as customers or products, and the columns represent the different attributes of that subject, such as name, address, and phone number.
-
-- Software: This refers to the database management system (DBMS) software that is used to create, manage, and maintain the database. Examples of DBMS software include MySQL, SQL Server, Oracle, MongoDB, and PostgreSQL.
-
-- Hardware: This refers to the physical components that are used to store the database, such as servers, storage devices, and network devices. The hardware must be powerful enough to support the demands of the database and the number of users accessing it.
-
-- Data Access Language: This refers to the language or interface used to interact with the database, such as SQL (Structured Query Language) which is used to insert, update, retrieve and delete data in the database.
-
-- Procedures: This refers to the set of instructions that are used to manage and maintain the database, such as backup procedures, security procedures, and performance tuning procedures. These procedures ensure the integrity, security, and performance of the database.
 
 
 # Structured and Unstructured Data
