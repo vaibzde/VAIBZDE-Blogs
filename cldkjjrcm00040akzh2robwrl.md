@@ -238,7 +238,7 @@ Example: Consider a collection of "users" where each document represents a uniqu
 1. Many-to-Many In a many-to-many relationship, multiple documents in one collection are associated with multiple documents in another collection.
     
 
-Example: Consider a collection of "users" where each document represents a unique user, and a collection of "groups" where each document represents a group. Here, multiple user documents in the "users" collection can be associated with multiple group documents in the "groups" collection.
+Example: Consider a collection of "users" where each document represents a unique user and a collection of "groups" where each document represents a group. Here, multiple user documents in the "users" collection can be associated with multiple group documents in the "groups" collection.
 
 ```pgsql
 // users collection
