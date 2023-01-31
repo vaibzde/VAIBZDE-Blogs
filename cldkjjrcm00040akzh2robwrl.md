@@ -185,8 +185,9 @@ The choice between embedding and referencing data in MongoDB depends on the spec
 
 In MongoDB, there are several types of relationships that can exist between data within the same or different collections. These relationships include:
 
-1. One-to-One In a one-to-one relationship, a single document in one collection is associated with only one document in another collection.
-    
+### One-to-One
+
+In a one-to-one relationship, a single document in one collection is associated with only one document in another collection.
 
 Example: Consider a collection of "users" where each document represents a unique user, and a collection of "user\_profiles" where each document represents a profile for a unique user. Here, each user document in the "users" collection is associated with only one user profile document in the "user\_profiles" collection.
 
@@ -207,8 +208,9 @@ Example: Consider a collection of "users" where each document represents a uniqu
 }
 ```
 
-1. One-to-Many In a one-to-many relationship, a single document in one collection is associated with multiple documents in another collection.
-    
+### One-to-Many
+
+In a one-to-many relationship, a single document in one collection is associated with multiple documents in another collection.
 
 Example: Consider a collection of "users" where each document represents a unique user, and a collection of "user\_posts" where each document represents a post made by a user. Here, each user document in the "users" collection can be associated with multiple user post documents in the "user\_posts" collection.
 
@@ -235,8 +237,9 @@ Example: Consider a collection of "users" where each document represents a uniqu
 }
 ```
 
-1. Many-to-Many In a many-to-many relationship, multiple documents in one collection are associated with multiple documents in another collection.
-    
+### Many-to-Many
+
+In a many-to-many relationship, multiple documents in one collection are associated with multiple documents in another collection.
 
 Example: Consider a collection of "users" where each document represents a unique user and a collection of "groups" where each document represents a group. Here, multiple user documents in the "users" collection can be associated with multiple group documents in the "groups" collection.
 
