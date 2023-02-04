@@ -18,7 +18,7 @@ JSON Web Tokens (JWT) is a compact and self-contained method for secure transmis
 
 A JWT is composed of three parts: header, payload, and signature. The header defines the type of token and the algorithm used to secure the token, while the payload contains the information being transmitted. The signature is used to verify the authenticity of the token.
 
-## Different Parts of JWT (Header, Payload, Signature)
+### Different Parts of JWT (Header, Payload, Signature)
 
 JSON Web Tokens (JWT) are composed of three distinct parts that make up its overall structure - header, payload, and signature. Understanding each of these components is crucial to comprehending how JWT works and how it can be utilized in backend development.
 
