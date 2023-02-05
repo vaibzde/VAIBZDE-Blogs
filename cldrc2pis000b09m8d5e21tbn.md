@@ -210,11 +210,13 @@ This code implements the basic flow of cookie authentication in a Node.js applic
 -   Regularly rotate session keys to prevent potential breaches.
 -   Avoid using unencrypted storage mechanisms like local storage for sensitive information.
 
+
 2.  Error handling:
 
 -   Properly handle errors related to session management, such as invalid sessions, missing sessions, etc.
 -   Implement proper error messages for the end-user that are descriptive yet do not expose sensitive information.
 -   Log any errors related to session management for debugging and auditing purposes.
+
 
 3.  Managing cookie expiration:
 
