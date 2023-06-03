@@ -14,7 +14,7 @@ tags: wind-energy
 > 
 > However, it is important to note that this blog should not be relied upon as a sole source of information or considered as a substitute for proper study materials. Since this is a text-based platform, diagrams and images are not included, which may limit the completeness of the information. Additionally, there is a possibility that the answers provided may be incorrect or incomplete.
 > 
-> Additionally, I would like to emphasize that the content provided in this blog is simply a compilation of the information I generated through ChatGPT regarding the subject of wind energy. It is a resource that I collected and organized to the best of my abilities within a limited timeframe.
+> Additionally, I would like to emphasize that the content provided in this blog is simply a compilation of the information I generated through ChatGPT regarding the subject of wind energy. It is a resource that I collected and organized within a limited timeframe.
 > 
 > Therefore, it is strongly advised to approach this blog as a helpful resource and supplementary study material rather than a comprehensive guide. Please exercise your own judgment and refer to authoritative sources and proper study materials for accurate and reliable information.
 
@@ -384,8 +384,8 @@ Concept of Tip Speed Ratio (TSR) in Wind Turbines:
 
 6\. Optimal TSR Range: The optimal TSR range depends on the specific design and characteristics of the wind turbine. It is typically determined through performance analysis and varies for different turbine types and wind conditions.
 
-### **Q2.4. Analyze the aerodynamic forces acting on the blades of a wind turbine. Discuss the lift force, drag force, and torque generation, explaining the influence of wind speed, blade design, and rotational speed. Include vector diagrams to illustrate the forces. (8 marks)**   
-   
+### **Q2.4. Analyze the aerodynamic forces acting on the blades of a wind turbine. Discuss the lift force, drag force, and torque generation, explaining the influence of wind speed, blade design, and rotational speed. Include vector diagrams to illustrate the forces. (8 marks)**
+
 Response:
 
 Aerodynamic Forces Acting on the Blades of a Wind Turbine:
@@ -534,8 +534,8 @@ The drive train model used in wind energy systems is a crucial component respons
 
 \- Control systems play a vital role in monitoring and regulating the performance of the drive train model. They ensure optimal operation, safety, and protection of the components. Control systems can include sensors, controllers, and software algorithms that monitor various parameters such as wind speed, generator speed, and system efficiency.
 
-### **Question 3.3:** **Construct and discuss the typical generator model used for analyzing the steady-state and transient stability of wind energy systems. Explain how the generator model is connected to wind energy systems.**   
-   
+### **Question 3.3:** **Construct and discuss the typical generator model used for analyzing the steady-state and transient stability of wind energy systems. Explain how the generator model is connected to wind energy systems.**
+
 Response:
 
 The generator model used for analyzing the steady-state and transient stability of wind energy systems is a crucial component in understanding the performance and behavior of the system. Here is a clear and concise explanation of the typical generator model and its connection to wind energy systems:
