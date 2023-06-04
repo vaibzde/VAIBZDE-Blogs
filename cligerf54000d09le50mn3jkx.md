@@ -52,6 +52,10 @@ Point 7: It is important to note that the calculations performed assume ideal co
 
 Point 8: Understanding the derivation and calculations involved in the power developed due to wind is crucial for analyzing wind turbine performance, optimizing power output, and designing efficient wind energy systems.
 
+A similar numerical - might be helpful to you. Attaching the screenshot -  
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685885731822/3697e473-098f-49cb-9c1c-a7d537fa8993.jpeg align="center")
+
 ### Q 1.2 Describe the main considerations in selecting a site for wind generators. Discuss the factors that need to be taken into account when choosing an appropriate location for installing wind turbines to maximize their efficiency and power output. (8 marks)
 
 Response:
@@ -270,6 +274,8 @@ Working Principles of Savonius and Darrieus Rotors in Wind Turbine Technology:
 
 1\. Savonius Rotor:
 
+![](https://upload.wikimedia.org/wikipedia/commons/f/f6/Savonius_Rotor.png align="center")
+
 \- The Savonius rotor is a vertical-axis wind turbine (VAWT) that operates on the principle of thrust force.
 
 \- It consists of a drum cut into two halves vertically and attached to a vertical shaft.
@@ -281,6 +287,8 @@ Working Principles of Savonius and Darrieus Rotors in Wind Turbine Technology:
 \- It is a simple and inexpensive design, suitable for water pumping applications due to its relatively low efficiency.
 
 2\. Darrieus Rotor:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Darrieus_Rotor.svg/1200px-Darrieus_Rotor.svg.png align="center")
 
 \- The Darrieus rotor is another type of VAWT that operates on the principle of aerodynamic lift force.
 
@@ -389,6 +397,8 @@ Concept of Tip Speed Ratio (TSR) in Wind Turbines:
 ### **Q2.4. Analyze the aerodynamic forces acting on the blades of a wind turbine. Discuss the lift force, drag force, and torque generation, explaining the influence of wind speed, blade design, and rotational speed. Include vector diagrams to illustrate the forces. (8 marks)**
 
 Response:
+
+![](https://electricalacademia.com/wp-content/uploads/2018/08/wind-power-wind-flow.gif align="center")
 
 Aerodynamic Forces Acting on the Blades of a Wind Turbine:
 
@@ -503,6 +513,8 @@ Response:
 \- Grid Integration: The generator should be compatible with the grid requirements and able to synchronize and feed power into the grid smoothly.
 
 ### **Question 3.2:** **Define the drive train model used in wind energy systems. Provide a neat diagram of the drive train model and explain the functions of each component.**
+
+![](https://www.mdpi.com/energies/energies-10-00939/article_deploy/html/images/energies-10-00939-g001-550.jpg align="center")
 
 Response:
 
@@ -664,6 +676,8 @@ Need of variable speed systems-Power-wind speed characteristics-Variable speed c
 
 Response:
 
+![](https://energyeducation.ca/wiki/images/thumb/1/19/Windpowercurve.png/400px-Windpowercurve.png align="center")
+
 1\. Power versus Wind Speed Characteristics of a Wind Turbine:
 
 \- Wind turbines have a specific power curve that shows the relationship between the wind speed and the power output of the turbine.
@@ -718,6 +732,8 @@ Response:
 
 \- The stator windings are directly connected to the grid.
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Doublyfed06.svg/400px-Doublyfed06.svg.png align="center")
+
 \- A schematic sketch of a DFIG would show the rotor windings connected to a power electronic converter, and the stator windings connected directly to the grid.
 
 Advantages of DFIG:
@@ -741,6 +757,8 @@ Disadvantages of DFIG:
 \- PMSG is another type of wind turbine generator that uses permanent magnets on the rotor to create a magnetic field, which interacts with the stator windings to generate electricity.
 
 \- The stator windings are similar to those in a conventional synchronous generator, consisting of three-phase windings.
+
+![](https://1.bp.blogspot.com/-9lxPnSqoxNE/YIxW5UjjldI/AAAAAAAAMNE/G-EY1nmyIMEqhoSnsgxYuolcjhI1edAFgCLcBGAsYHQ/s2913/Block%2BDiagram%2Bof%2BPermanent%2BMagnet%2BSynchronous%2BGenerator.jpg align="center")
 
 \- A schematic sketch of a PMSG would show the permanent magnets mounted on the rotor and the stator windings connected directly to the grid.
 
